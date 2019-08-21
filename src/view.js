@@ -1122,6 +1122,7 @@ view.ModelFactoryService = class {
         this.register('./paddle', [ '.paddle', '__model__' ]);
         this.register('./ncnn', [ '.param', '.bin', '.cfg.ncnn', '.weights.ncnn' ]);
         this.register('./dl4j', [ 'configuration.json' ]);
+        this.register('./dmlplan', [ 'dmlplan.json' ]);
     }
 
     register(id, extensions) {
